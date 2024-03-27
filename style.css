@@ -36,11 +36,11 @@
 }
 
 .second-text h2 {
-    margin-top: 4.5vw;
+    margin-top: 4.61vw;
     margin-left: 0.5vw;
     color: black;
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1.9vw;
 }
 
 .comp-name {
@@ -56,7 +56,10 @@
 }
 
 .round-one {
-    background-color: #005036c9;
+    /* background-color: #005036c9; */
+    /* background-color: #234e7894; */
+    background-color: rgba(45, 83, 83, 0.773);
+    
     height: 22vw;
     width: 23vw;
     border-bottom-left-radius: 50%;
@@ -117,7 +120,7 @@
 .number-one h1 {
     margin-top: 1.2vw;
     margin-left: 1.8vw;
-    color: #ff4415;
+    color: #ff582eef;
     font-size: 5vw;
 }
 
@@ -125,7 +128,7 @@
     letter-spacing: 0.3vw;
     margin-top: 2.7vw;
     margin-left: 2.2vw;
-    color: #ff4415;
+    color: #ff582eef;
     font-size: 5vw;
 
 }
@@ -135,7 +138,8 @@
     margin-left: 1.3vw;
     font-size: 1.3vw;
     font-weight: 800;
-    color: #005036c9;
+    /* color: #005036c9; */
+    color: rgba(45, 83, 83, 0.837);
 }
 
 .content-heading-one p {
@@ -150,8 +154,8 @@
     margin-top: 2.3vw;
     margin-left: 1vw;
     font-size: 1.3vw;
-    font-weight: 900;
-    color: #005036c9;
+    font-weight: 800;
+    color: rgba(45, 83, 83, 0.837);
 
 }
 
@@ -169,7 +173,7 @@
     margin-left: 1vw;
     font-size: 1.3vw;
     font-weight: 800;
-    color: #005036c9;
+    color: rgba(45, 83, 83, 0.837);
 
 }
 
@@ -191,14 +195,14 @@
 
 .div-one {
     height: 15vw;
-    background-color: rgba(0, 67, 46, 0.788);
+    background-color: #2d5353da;
     width: 30vw;
     margin-left: 3vw;
 }
 
 .div-two {
     height: 17vw;
-    background-color: #fb3d0d;
+    background-color: #ff582eef;
     width: 30vw;
     margin-left: 3vw;
 }
@@ -244,7 +248,7 @@
 .last-orange-part {
     margin-top: 10vw;
     height: 1.5vw;
-    background-color: #fb4012;
+    background-color: #ff582eef;
 }
 
 .second-half {
@@ -282,13 +286,47 @@
 @media (max-width:716px) {
 
 
+    .div-logo-one {
+
+        background-color: #314357;
+        height: 3vw;
+        width: 3vw;
+        margin-top: 6vw;
+        margin-left: 5vw;
+    
+    }
+    
+    .div-logo-two {
+        background-color: #4E7584;
+        height: 2.5vw;
+        width: 2.5vw;
+        margin-top: 0.5vw;
+        margin-left: 0.5vw;
+    }
+    
+    .first-text h2 {
+        margin-top: 6.5vw;
+        margin-left: 2vw;
+        color: #fb4012;
+        font-size: 2vw;
+        font-weight: 800;
+    }
+    
+    .second-text h2 {
+        margin-top: 6.5vw;
+        margin-left: 0.5vw;
+        color: black;
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
     .round-one {
-        background-color: #005036c9;
-        height: 27vw;
-        width: 26vw;
+        background-color: rgba(45, 83, 83, 0.773);
+        height: 28vw;
+        width: 30vw;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
-        margin-left: 38vw;
+        margin-left: 34vw;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -299,24 +337,24 @@
 
     .text-1 h1 {
         color: white;
-        margin-top: 6vw;
-        font-size: 3.7vw;
+        margin-top: 3.5vw;
+        font-size: 4.2vw;
     }
 
     .text-2 h1 {
         color: white;
-        font-size: 3.7vw;
+        font-size: 4.2vw;
     }
 
     .text-3 h1 {
         color: white;
-        font-size: 3.7vw;
+        font-size: 4.2vw;
     }
 
     .img img {
         position: relative;
         z-index: -1;
-        margin-top: 3vw;
+        margin-top: 6vw;
         height: 55vw;
         width: 100%;
 
@@ -331,7 +369,7 @@
     .number-one h1 {
         margin-top: 1.2vw;
         margin-left: 1.8vw;
-        color: #ff4415;
+        color: #ff582eef;
         font-size: 5vw;
     }
     
@@ -339,9 +377,35 @@
         letter-spacing: 0.3vw;
         margin-top: 2.7vw;
         margin-left: 2.2vw;
-        color: #ff4415;
+        color: #ff582eef;
         font-size: 5vw;
     
+    }
+    .div-one {
+        height: 15vw;
+        background-color: #2d5353da;
+        width: 30vw;
+        margin-left: 4vw;
+    }
+
+    .div-two {
+        height: 17vw;
+        background-color: #ff582eef;
+        width: 30vw;
+        margin-left: 4vw;
+    }
+    
+    .div-three {
+        height: 5vw;
+        background-color: #ace0eb;
+        width: 30vw;
+        margin-left: 4vw;
+        margin-bottom: 2vw;
+    }
+    .last-orange-part {
+        margin-top: 10vw;
+        height: 1.5vw;
+        background-color: #ff582eef;
     }
 
 
@@ -387,14 +451,14 @@
     }
 
     .first-text h2 {
-        margin-top: 5.5vw;
+        margin-top: 6.2vw;
         margin-left: 2vw;
         color: #fb4012;
         font-size: 3vw;
     }
 
     .second-text h2 {
-        margin-top: 5.5vw;
+        margin-top: 6.2vw;
         margin-left: 0.5vw;
         color: black;
         font-weight: 500;
@@ -416,7 +480,7 @@
     }
 
     .round-one {
-        background-color: #005036c9;
+        background-color: rgba(45, 83, 83, 0.773);
         height: 32vw;
         width: 30vw;
         border-bottom-left-radius: 50%;
@@ -476,14 +540,14 @@
         margin-top: 9vw;
         font-size: 2vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
         margin-left: 20vw;
     }
 
     .number-one h1 {
         margin-top: 1.2vw;
         margin-left: 1.8vw;
-        color: #ff4415;
+        color: #ff582eef;
         font-size: 7vw;
     }
 
@@ -491,7 +555,7 @@
         letter-spacing: 0.3vw;
         margin-top: 1.4vw;
         margin-left: 2.2vw;
-        color: #ff4415;
+        color: #ff582eef;
         font-size: 7vw;
 
 
@@ -502,7 +566,7 @@
         margin-left: 1.3vw;
         font-size: 1.7vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
 
     }
 
@@ -520,7 +584,7 @@
         margin-left: 1vw;
         font-size: 1.7vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
 
     }
 
@@ -538,7 +602,7 @@
         margin-left: 1vw;
         font-size: 1.7vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
 
     }
 
@@ -564,14 +628,14 @@
 
     .div-one {
         height: 27vw;
-        background-color: #005036c9;
+        background-color: rgba(45, 83, 83, 0.837);
         width: 38vw;
         margin-left: 6vw;
     }
 
     .div-two {
         height: 27vw;
-        background-color: #ff4415;
+        background-color: #ff582eef;
 
         width: 38vw;
         margin-left: 6vw;
@@ -617,7 +681,7 @@
     .last-orange-part {
         margin-top: 39vw;
         height: 1.5vw;
-        background-color: #ff4415;
+        background-color: #ff582eef;
 
     }
 
@@ -708,9 +772,9 @@
     }
 
     .round-one {
-        background-color: #005036c9;
+        background-color: rgba(45, 83, 83, 0.773);
         height: 32vw;
-        width: 30vw;
+        width: 34vw;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
         margin-left: 25vw;
@@ -724,7 +788,7 @@
 
     .text-1 h1 {
         color: white;
-        margin-top: 8vw;
+        margin-top: 5vw;
         font-size: 4.5vw;
     }
 
@@ -748,7 +812,7 @@
     .img img {
         position: relative;
         z-index: -1;
-        margin-top: 3vw;
+        margin-top: 5vw;
         height: 69vw;
         margin-left: 0.2vw;
         width: 110.5vw;
@@ -771,7 +835,7 @@
         margin-top: 5vw;
         font-size: 3.5vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
         margin-left: 41svw;
     }
 
@@ -779,7 +843,7 @@
         letter-spacing: 0.3vw;
         margin-top: 0.5vw;
         margin-left: 6.2vw;
-        color: #ff4415;
+        color: #ff582eef;
         font-size: 12vw;
     }
 
@@ -787,7 +851,7 @@
         letter-spacing: 0.3vw;
         margin-top: 0.5vw;
         margin-left: 8vw;
-        color: #ff4415;
+        color: #ff582eef;
         font-size: 12vw;
 
 
@@ -795,16 +859,16 @@
 
     .content-heading-one h1 {
         margin-top: 2.3vw;
-        margin-left: 3.3vw;
+        margin-left: 4.6vw;
         font-size: 2.5vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
 
     }
 
     .content-heading-one p {
         margin-top: 1vw;
-        margin-left: 3.3vw;
+        margin-left: 4.6vw;
         text-align: justify;
         font-size: 1.9vw;
         color: black;
@@ -817,7 +881,7 @@
         margin-left: 4vw;
         font-size: 2.5vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
 
     }
 
@@ -836,7 +900,7 @@
         margin-left: 3.3vw;
         font-size: 2.5vw;
         font-weight: 800;
-        color: #005036c9;
+        color: rgba(45, 83, 83, 0.837);
     }
 
     .content-heading-three p {
@@ -865,7 +929,7 @@
 
     .div-one {
         height: 27vw;
-        background-color: #005036c9;
+        background-color: rgba(45, 83, 83, 0.837);
         width: 89vw;
         margin-left: 9vw;
 
@@ -874,7 +938,7 @@
 
     .div-two {
         height: 29vw;
-        background-color: #ff4415;
+        background-color: #ff582eef;
         width: 89vw;
         margin-left: 9vw;
     }
@@ -921,7 +985,7 @@
         margin-left: 0.2vw;
         height: 1.9vw;
         width: 110.5vw;
-        background-color: #ff4415;
+        background-color: #ff582eef;
 
     }
 
