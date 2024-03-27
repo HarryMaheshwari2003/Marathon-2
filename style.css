@@ -328,6 +328,22 @@
 
     }
 
+    .number-one h1 {
+        margin-top: 1.2vw;
+        margin-left: 1.8vw;
+        color: #ff4415;
+        font-size: 5vw;
+    }
+    
+    .number-one-1 h1 {
+        letter-spacing: 0.3vw;
+        margin-top: 2.7vw;
+        margin-left: 2.2vw;
+        color: #ff4415;
+        font-size: 5vw;
+    
+    }
+
 
 }
 
@@ -555,7 +571,8 @@
 
     .div-two {
         height: 27vw;
-        background-color: #ff3300;
+        background-color: #ff4415;
+
         width: 38vw;
         margin-left: 6vw;
     }
@@ -600,7 +617,8 @@
     .last-orange-part {
         margin-top: 39vw;
         height: 1.5vw;
-        background-color: #fb4012;
+        background-color: #ff4415;
+
     }
 
     .second-half {
@@ -856,7 +874,7 @@
 
     .div-two {
         height: 29vw;
-        background-color: #ff3300;
+        background-color: #ff4415;
         width: 89vw;
         margin-left: 9vw;
     }
@@ -903,7 +921,8 @@
         margin-left: 0.2vw;
         height: 1.9vw;
         width: 110.5vw;
-        background-color: #fb4012;
+        background-color: #ff4415;
+
     }
 
 }
